@@ -1,0 +1,14 @@
+{
+  "name": "KDP Ebook Generator",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:18",
+  "postCreateCommand": "npm install --prefix backend && npm install --prefix frontend",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "bradlc.vscode-tailwindcss"
+      ]
+    }
+  },
+  "forwardPorts": [5001, 5173]
+}
